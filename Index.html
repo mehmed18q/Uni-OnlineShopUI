@@ -1,0 +1,770 @@
+﻿<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Online Shop">
+    <meta name="author" content="Mohammad Sadeq Kiumarsi">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/Footer-with-logo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo/logo.jpg">
+    <title>صادق کالا</title>
+</head>
+
+<body class="bg">
+    <!-- Nav bar 1-->
+    <nav style="direction: rtl;" class="navbar navbar-expand-sm navbar-custom P-1 bg-white ">
+        <a class="navbar-brand" href="Index.html" style="margin-left:15px;">صادق کالا</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="row" style=" width: 100%;">
+                <div class="col-lg-6 col-sm-12">
+                    <input class="form-control" type="search" placeholder="جستجو در صادق کالا..." aria-label="Search">
+                </div>
+                <div class="col-lg-1 col-sm-12">
+                    <a href="Index.html" class="btn btn-outline-primary my-2 my-sm-0 btn-block"><i
+                            class="fa fa-search"></i></a>
+                </div>
+            </form>
+            <div class="col-lg-2 col-sm-12" style="display: inline-flex;">
+                <button id="sign-in" class="btn btn-outline-primary my-2 my-sm-0 btn-block" type="submit">
+                    <a href="user-panel-shopping-cart.html">سبد خرید</a>
+                </button>
+                <button id="sign-in" class="btn btn-outline-primary my-2 my-sm-0 btn-block" type="submit">
+                    <a href="Sign-in.html">ورود</a>
+                </button>
+                <button id="sign-up" class="btn btn-outline-primary my-2 my-sm-0 btn-block" type="submit">
+                    <a href="Sign-up.html">ثبت نام</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nav bar 2-->
+    <nav style=" direction: rtl;" class="navbar navbar-expand-sm navbar-custom shadow-sm p-3 mb-4 bg-white rounded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto" style="font-size: small; font-weight: bold;">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        دسته بندی کالاها
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Index.html">کالای دیجیتال</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">آرایشی، بهداشتی و سلامت</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">خانه و آشپزخانه</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">خودرو، ابزار و اداری</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">کتاب، لوازم تحریر و هنر</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">اسباب بازی، کودک و نوزاد</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Index.html">خوردنی و آشامیدنی</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Product-list.html">لیست محصولات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">سوپر مارکت</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">تخفیف ها و پیشنهاد ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">درباره ی ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">ارتباط با ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="add-product.html">افزودن محصول</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin-paenl-category.html">مدیریت دسته بندی ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user-panel-info.html">مدیریت حساب کاربری</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Start Content Block -->
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="container carousel slide mb-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 image-banner" src="images/banner/banner1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 image-banner" src="images/banner/banner2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 image-banner" src="images/banner/banner3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 image-banner" src="images/banner/banner4.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--Category-->
+    <div class="mb-2">
+        <hr class="mb-4" />
+        <div class="container ">
+            <h4 class="mb-4">دسته های محبوب</h4>
+            <div class="row mb-4">
+
+                <div class="row mb-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="category-container  card category-card">
+                            <img id="category-home" src="images/Category/category08.jpg" class="card-img-top image"
+                                alt="...">
+                            <div class="card-body">
+                                <h6>خانه و آشپزخانه</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="category-container card category-card">
+                            <img src="images/Category/category05.jpg" class="card-img-top image" alt="...">
+                            <div class="card-body">
+                                <h6>مد و پوشاک</h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="category-container card category-card">
+                            <img src="images/Category/category02.jpg" class="card-img-top image" alt="...">
+                            <div class="card-body">
+                                <h6>آرایشی، بهداشتی و سلامت</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="category-container card category-card">
+                            <img src="images/Category/category01.jpg" class="card-img-top image" alt="...">
+                            <div class="card-body">
+                                <h6>کالای دیجیتال</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="category-container card category-card">
+                        <img src="images/Category/category09.jpg" class="card-img-top image" alt="...">
+                        <div class="card-body">
+                            <h6>
+                                خوردنی و آشامیدنی
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="category-container card category-card">
+                        <img src="images/Category/category07.jpg" class="card-img-top image" alt="...">
+                        <div class="card-body">
+                            <h6>اسباب بازی، کودک و نوزاد</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="category-container card category-card">
+                        <img src="images/Category/category03.jpg" class="card-img-top image" alt="...">
+                        <div class="card-body">
+                            <h6>کتاب، لوازم تحریر و هنر</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="category-container card category-card">
+                        <img src="images/Category/category04.jpg" class="card-img-top image" alt="...">
+                        <div class="card-body">
+                            <h6>خودرو، ابزار و اداری</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <!--Products box-->
+    <div class="container part mb-4">
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="part-titr">منتخب جدیدترین کالاها</h6>
+                <hr class="part-line" />
+            </div>
+            <div class="col-lg-9 show-title">
+                <h6 href="#" class="show-text">مشاهده همه</h6>
+                <hr class="part-line-all" />
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div id="product-1" class="product col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew01.jpg" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ساعت مچی عقربه ای آیس واچ مدل ICE COSMOS-PINK SHADES-SMALL
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۱,۰۴۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="#product-2" class="product col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew06.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">گوشی موبایل شیائومی مدل Redmi Note 7 M1901F7G دو سیم‌ کارت ظرفیت 128
+                            گیگابایت
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۲,۹۸۵,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">لپ تاپ 15 اینچی ایسوس مدل ROG Strix G531GU - B</p>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۲۳,۹۹۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ساعت هوشمند هوآوی مدل WATCH GT 2 LTN-B19 46 mm</h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۳,۹۴۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">تلسکوپ سلسترون مدل CPC 800
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۸۴,۰۰۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew02.jpg" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">کیف زنانه مدل مهسا کد 411387
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۷۲,۵۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Products box-->
+    <div class="container part mb-4">
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="part-titr">محصولات پرفروش اخیر</h6>
+                <hr class="part-line" />
+            </div>
+            <div class="col-lg-9 show-title">
+                <h6 href="#" class="show-text">مشاهده همه</h6>
+                <hr class="part-line-all" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product1.jpg" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS</h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۲,۰۷۳,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product6.jpg" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">هندزفری بلوتوث مدل SP01
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۲۷,۳۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">گوشی موبایل سامسونگ مدل Galaxy A70 SM-A705FN/DS </p>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۴,۶۴۵,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">استیکر لپ تاپ طرح Clown کد 01 مناسب برای لپ تاپ 15.6 اینچ</h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۲۸,۵۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ریمل حجم دهنده ایزادورا سری Big Bold شماره 10
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۹۴,۵۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/product2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ادو پرفیوم زنانه لالیک مدل Le Amour حجم 100 میلی‌ لیتر
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۴۴۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Ads-->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <a href="#" class="mb-4">
+                    <img src="images/Ads/ads01.jpg" class="ads-image img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <a href="#" class="mb-4">
+                    <img src="images/Ads/ads02.jpg" class="ads-image img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <a href="#" class="mb-4">
+                    <img src="images/Ads/ads03.jpg" class="ads-image img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <a href="#" class="mb-4">
+                    <img src="images/Ads/ads04.jpg" class="ads-image img-fluid" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Products box-->
+    <div class="container part mb-4">
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="part-titr">محصولات پربازدید اخیر</h6>
+                <hr class="part-line" />
+            </div>
+            <div class="col-lg-9 show-title">
+                <h6 href="#" class="show-text">مشاهده همه</h6>
+                <hr class="part-line-all" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productMostView03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">فوم شستشوی صورت لافارر مدل Oily to Normal Skin حجم 150 میلی لیتر</p>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۵۹,۸۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productMostView01.jpg" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">گوشی موبایل شیائومی مدل Redmi Note 8 M1908C3JG دو سیم‌ کارت ظرفیت 64
+                            گیگابایت
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۳,۱۵۸,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productMostView02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">کرم ضد آفتاب و ضد لک لافارر مدل Oily and Acne-Prone SPF50 حجم 40 میلی
+                            لیتر
+
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۱۱۲,۸۰۰
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productMostView04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ساعت مچی عقربه ای 5موتور فعال ضدآب اسکمی مدل 9127
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۵۲۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productMostView05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ادو پرفیوم زنانه امپر مدل Gorgeous حجم 80 میلی لیتر
+
+                        </h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۱۵۵,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card ">
+                <div class="card card-product">
+                    <img src="images/Products/productNew04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ساعت هوشمند هوآوی مدل WATCH GT 2 LTN-B19 46 mm</h5>
+                        <div class="row card-price-info">
+                            <p class="card-price-unit">تومان</p>
+                            <p class="card-price">۳,۹۴۰,۰۰۰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Ad-->
+    <div class="container">
+        <div class="row">
+            <a href="#" class="mb-4">
+                <img src="images/ads.jpg" class="ads-image img-fluid" />
+            </a>
+        </div>
+    </div>
+
+    <!--Brands-->
+    <div class="container part mb-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="part-titr">منتخب برترین برند ها</h6>
+                <hr class="part-line" />
+            </div>
+            <div class="col-lg-9 show-title">
+                <h6 href="#" class="show-text">مشاهده همه</h6>
+                <hr class="part-line-all" />
+            </div>
+        </div>
+
+        <div class="row brand-album">
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand1.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand2.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand3.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand4.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand5.jpg" alt="..." class="img-thumbnail">
+            </div>
+        </div>
+
+        <div class="row brand-album ">
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand6.jpg" alt="..." class="brand img-thumbnail ">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand7.jpg" alt="..." class="img-thumbnail ">
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand8.jpg" alt="..." class="img-thumbnail ">
+            </div>
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand9.jpg" alt="..." class="img-thumbnail ">
+            </div>
+
+            <div class="col-lg-2 col-sm-4 product-card">
+                <img src="images/brands/brand10.jpg" alt="..." class="img-thumbnail">
+            </div>
+
+        </div>
+    </div>
+    <!-- End Content Block -->
+
+    <!--Register in Newsletters -->
+    <div style="direction: rtl;">
+        <div class="container mb-4">
+            <h4 class="mb-3 titr" style="color: #686868;">عضویت در خبر نامه</h4>
+            <div class="form-group">
+                <h6 style="text-align: center; color: #535353;" class="mb-4">با عضویت در خبر نامه از تخفیف‌ها و
+                    جدیدترین‌ها باخبر شوید</h6>
+                <div class="row">
+                    <div class="col-lg-2 col-sm-0"></div>
+                    <div class="col-lg-6 col-sm-12">
+                        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                            placeholder="آدرس ایمیل خود را وارد کنید">
+                        <small id="emailHelpId" class="form-text text-muted"> ایمیل شما رو منتشر نمیکنیم :) </small>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button class="btn btn-outline-primary btn-md btn-block">عضوم کن!</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-0"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Go up-->
+    <hr class="mb-3 " style=" width: 100%; border-width: 0.05px !important; border-color: #b1b1b1 !important;" />
+    <div class="mb-0 " style="display: block; margin: auto;">
+        <div class="row">
+            <p id="back-to-top"> بازگشت به بالا
+                <img src="images/Footer/up-arrow.svg" style=" width:35px; " />
+            </p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="mainfooter" role="contentinfo" id="myFooter" dir="rtl">
+        <div class="footer-middle">
+            <div class="container">
+                <!--services-->
+                <div class="row mb-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="images/Footer/pay.svg" class="service-image card-img-top image" alt=" ... ">
+                        <h6 class="service-text">پرداخت در محل</h6>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="images/Footer/exchange.svg " class="service-image card-img-top image " alt="... ">
+                        <h6 class="service-text">ضمانت بازگشت</h6>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="images/Footer/delivery-truck.svg " class="service-image card-img-top image "
+                            alt="... ">
+                        <h6 class="service-text">ارسال سریع کالا</h6>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class=" ">
+                            <img src="images/Footer/warranty.svg " class="service-image card-img-top image " alt="... ">
+                            <h6 class="service-text">ضمانت اصل بودن کالا</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border-color: #606063 !important;" />
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <ul class="list-unstyled">
+                                <li class="footerItems mb-2">راهنمای خرید</li>
+                                <li><a href="#">نحوه ی ثبت سفارش</a></li>
+                                <li><a href="#">رویه ارسال سفارش</a></li>
+                                <li><a href="#">شیوه های پرداخت</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <ul class="list-unstyled" dir="rtl">
+                                <li class="footerItems mb-2">خدمات مشتریان</li>
+                                <li><a href="#">پرسش های متداول</a></li>
+                                <li><a href="#">رویه های بازگرداندن کالا</a></li>
+                                <li><a href="#">شرایط استفاده</a></li>
+                                <li><a href="#">حریم خصوصی</a></li>
+                                <li><a href="#">گزارش خطا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <address>
+                                <ul class="list-unstyled">
+                                    <li class="footerItems mb-2">تماس با ما</li>
+                                    <li>تلفن: 989217074647+
+                                    </li>
+                                    <li>ایمیل: mehmed2002q@gmail.com
+                                    </li>
+                                    <li>فکس: نداریم
+                                    </li>
+                                    <li>دفتر مرکزی: قم
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <span class="footerItems mb-2">نام صادق کالا</span>
+                            <p class="list-unstyled">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                ابزارهای کاربردی می باشد.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                طراحی شده با <i class="fa fa-heart heart"></i> توسط محمد صادق کیومرثی
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="js/jquery.js" />
+<script>
+    $(document).ready(function () {
+        $('#sign-in').click(function () {
+            window.open("Sign-in.html", "_self");
+        });
+
+        $('.product').click(function () {
+            var id = $(this).attr("id");
+            window.open("product-details.html", "_self");
+        });
+    });
+</script>
+
+</html>
